@@ -1,0 +1,165 @@
+
+body{
+    font-family: 'Varela', sans-serif;
+    background-color: rgb(224, 218, 218);
+    letter-spacing: 0.4px;
+}
+
+.container{
+    display: flex;
+    width: 772px;
+    height: 1102px;
+}
+    .main-left-container{
+        color: white;
+        background-color: rgb(65, 61, 61);
+        width: 40%;
+        height: 100%;
+        position: relative;
+        border-radius: 8px;
+    }
+        .header-left{
+            width: 100%;
+            height: 20%;
+            overflow: hidden;
+            display: flex;
+            justify-content:center;
+        }
+            .image-container{
+                background-color: rgb(238, 232, 232);
+                display: flex;
+                width: 60%;
+                height: 80px;
+                border-radius: 200px;
+                overflow: hidden;
+                margin-top: 20px;;
+                align-items: center;
+                padding-top: 90px;
+            }
+            .image-container:hover{
+                border: 1px solid gray;
+            }
+            .image-container img{
+                margin-top: 120px;
+                margin-left: -45px;
+                width: 260px;
+            }
+        .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            width: 100%;
+            height: 90%;
+        }
+            .about-container{
+                text-align: distribute;
+                padding-left: 20px;
+                padding-right: 20px;
+                width: 90%;
+                height: auto;
+                margin-top: -20px;
+            }
+                .escritos{
+                    font-size: 11px;
+                    text-justify: distribute;
+                }
+                .about-container div{
+                    font-size: 11px;
+                }
+            .skills-container{
+                padding-left: 20px;
+                padding-right: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 100%;
+                height: auto;
+                margin-top: 20px;
+            }
+                .skills-info-container{
+                    width: 100%;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    display: flex;
+                    align-items: center;
+                    text-align: distribute;
+                
+                }
+                    .skills-info-container h3{
+                        width: 40%;
+                        font-size: 11px;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                    }
+                    .box-stars{
+                        display: flex;
+                        padding-left: 5px;
+                        width: 80%;
+                        height: 85%;
+                    }
+
+    .main-right-container{
+        background-color: rgb(238, 232, 232);
+        width: 60%;
+        height: 100%;
+        border-radius: 8px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+        .name-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 10%;
+            margin-top: 25px
+        }
+        .box div{
+            padding-bottom: 5px;
+        }
+            
+            .exp-pro, .exp-for{
+                width:100%;
+                height: 20%;
+                text-align: distribute;
+            }
+            .exp-pro h3, .exp-for h3{
+                width:100%;
+                height: 20%;
+            }
+
+.skills-container h1,.about-container h1{
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 17px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+h2{
+    margin: 0px;
+    font-size: 13px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+h3{
+    margin: 0px;
+    font-size: 13px;
+    margin-top: 2px;
+    padding-bottom: 3px;
+    width: 20%;
+    height: 35%;
+}
+input {
+    accent-color: rgb(80, 77, 77) !important; 
+    width: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    border-color: rgb(185, 183, 183);
+}
+
